@@ -1,0 +1,15 @@
+E:\Xamarin\poke\poke\bin\Debug\netstandard2.0\poke.deps.json
+E:\Xamarin\poke\poke\bin\Debug\netstandard2.0\poke.dll
+E:\Xamarin\poke\poke\bin\Debug\netstandard2.0\ref\poke.dll
+E:\Xamarin\poke\poke\bin\Debug\netstandard2.0\poke.pdb
+E:\Xamarin\poke\poke\obj\Debug\netstandard2.0\poke.csprojAssemblyReference.cache
+E:\Xamarin\poke\poke\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Xamarin\poke\poke\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\Xamarin\poke\poke\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+E:\Xamarin\poke\poke\obj\Debug\netstandard2.0\poke.AssemblyInfoInputs.cache
+E:\Xamarin\poke\poke\obj\Debug\netstandard2.0\poke.AssemblyInfo.cs
+E:\Xamarin\poke\poke\obj\Debug\netstandard2.0\poke.csproj.CoreCompileInputs.cache
+E:\Xamarin\poke\poke\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Xamarin\poke\poke\obj\Debug\netstandard2.0\poke.dll
+E:\Xamarin\poke\poke\obj\Debug\netstandard2.0\ref\poke.dll
+E:\Xamarin\poke\poke\obj\Debug\netstandard2.0\poke.pdb

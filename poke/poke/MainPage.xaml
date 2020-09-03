@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="poke.MainPage">
+
+    <StackLayout Padding="40" Spacing="10">
+        <Label Text="Enter your pokemon number"/>
+        <Entry x:Name="txtNumber" Placeholder="Number"></Entry>
+        <Button Text="Find"
+                Clicked="Button_Clicked"></Button>
+        <Label x:Name="lblName" Text="Name" FontSize="30"
+               HorizontalOptions="Center" Margin="0,10"></Label>
+        <Image x:Name="imgImage"
+               WidthRequest="200"
+               HeightRequest="200"
+               HorizontalOptions="Center"
+               BackgroundColor="Pink"
+               ></Image> 
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,15 @@
+E:\Xamarin\tesst\tesst\obj\Debug\netstandard2.0.3\tesst.csprojAssemblyReference.cache
+E:\Xamarin\tesst\tesst\obj\Debug\netstandard2.0.3\App.xaml.g.cs
+E:\Xamarin\tesst\tesst\obj\Debug\netstandard2.0.3\MainPage.xaml.g.cs
+E:\Xamarin\tesst\tesst\obj\Debug\netstandard2.0.3\Page1.xaml.g.cs
+E:\Xamarin\tesst\tesst\obj\Debug\netstandard2.0.3\tesst.AssemblyInfoInputs.cache
+E:\Xamarin\tesst\tesst\obj\Debug\netstandard2.0.3\tesst.AssemblyInfo.cs
+E:\Xamarin\tesst\tesst\obj\Debug\netstandard2.0.3\tesst.csproj.CoreCompileInputs.cache
+E:\Xamarin\tesst\tesst\bin\Debug\netstandard2.0.3\tesst.deps.json
+E:\Xamarin\tesst\tesst\bin\Debug\netstandard2.0.3\tesst.dll
+E:\Xamarin\tesst\tesst\bin\Debug\netstandard2.0.3\ref\tesst.dll
+E:\Xamarin\tesst\tesst\bin\Debug\netstandard2.0.3\tesst.pdb
+E:\Xamarin\tesst\tesst\obj\Debug\netstandard2.0.3\XamlC.stamp
+E:\Xamarin\tesst\tesst\obj\Debug\netstandard2.0.3\tesst.dll
+E:\Xamarin\tesst\tesst\obj\Debug\netstandard2.0.3\ref\tesst.dll
+E:\Xamarin\tesst\tesst\obj\Debug\netstandard2.0.3\tesst.pdb

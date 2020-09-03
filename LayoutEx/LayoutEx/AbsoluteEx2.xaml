@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutEx.AbsoluteEx2">
+    <AbsoluteLayout>
+        <Image x:Name="img1"
+               Opacity="50"
+               BackgroundColor="Aqua"
+               Aspect="AspectFill"
+               AbsoluteLayout.LayoutBounds="0,0,1,1"
+               AbsoluteLayout.LayoutFlags="All" 
+               Source="happy_valentine_s_day_corgi_by_sandara_daz0lzw.jpg"
+               />
+        <Label Text="RELAX"
+               FontSize="30"
+               AbsoluteLayout.LayoutBounds="0.5,10"
+               AbsoluteLayout.LayoutFlags="XProportional"
+               FontAttributes="Bold"
+               TextColor="Pink"/>
+        <BoxView x:Name="box" 
+            Opacity="0.3"
+                 Color="Green"
+                 AbsoluteLayout.LayoutBounds="0,1,1,100"
+                 AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+
+        <StackLayout AbsoluteLayout.LayoutBounds="0,1,1,100"
+                     AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+                     Orientation="Horizontal"
+                     Padding="30,0"
+                     >
+            <Label Text="Profile"
+                   VerticalOptions="Center"
+                   FontSize="25"
+                   HorizontalOptions="Center"/>
+            <Label Text="Meditate"
+                   VerticalOptions="Center"
+                   FontSize="25"
+                   HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Themes"
+                   VerticalOptions="Center"
+                   FontSize="25"/>
+        </StackLayout>
+    </AbsoluteLayout>
+</ContentPage>

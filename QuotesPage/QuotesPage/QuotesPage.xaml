@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QuotesPage.QuotesPage" Padding="20" >
+    
+    <ContentPage.Padding>
+        
+        <OnPlatform x:TypeArguments="Thickness"
+                    Android="20,30,20,20">
+        </OnPlatform>
+        
+    </ContentPage.Padding>
+    
+    <StackLayout BindingContext="{x:Reference slider}" >
+        <Button Text="NEXT" HorizontalOptions="Center"
+                Clicked="Button_Clicked"/>
+        
+        <Label Text="{Binding Value,
+                StringFormat='Font size: {0:N0}'}"
+                x:Name="lbl1"
+                FontSize="18"/>
+        
+        <Slider x:Name="slider"
+                Maximum="50"
+                Minimum="15"
+                ThumbColor="blue"
+                MaximumTrackColor="Red"/>
+        
+        <Label  x:Name="lbl2" 
+                Text=""
+                FontSize="{Binding Value}"/>
+
+        <BoxView x:Name="box1" BackgroundColor="Aqua" />
+                <!-- BackgroundColor="{Binding Source={x:Reference slider1},
+                 Path=Value,
+                 StringFormat='#{0:N0}'}" -->
+                 
+        <Label Text="{Binding Source={x:Reference slider1},
+                 Path=Value,
+                StringFormat='Color: #{0:N0}'}"/>
+        <Slider x:Name="slider1" Maximum="999" Minimum="15"
+                ValueChanged="slider1_ValueChanged"/>
+
+    </StackLayout>
+</ContentPage>
